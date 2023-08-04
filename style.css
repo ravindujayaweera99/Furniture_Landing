@@ -1,0 +1,248 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+/* ------- Header ---------- */
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    text-align: center;
+    background-color: rgba(105, 33, 0, 1);
+    height: 100px;
+    width: 700px;
+}
+
+.logo h1 {
+    margin-top: 20px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.info {
+    background-color: rgba(0, 0, 53, 1);
+    width: 100%;
+    height: 50px;
+}
+
+.info h1 {
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+}
+
+.links a {
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 25px;
+    margin-left: 50px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.links a:hover {
+    color: blue;
+}
+
+/* ------- banner ---------- */
+
+.banner {
+    background-image: url(./images/banner-image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h3 {
+    text-align: left;
+}
+
+.banner h1 {
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.banner button {
+    padding: 15px;
+    font-size: 15px;
+    background-color: yellow;
+    border: 1px solid yellow;
+    border-radius: 15px;
+}
+
+.banner button:hover {
+    background-color: black;
+    color: aliceblue;
+    border: 1px solid black;
+}
+
+/* ------ Contact Section --------*/
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+}
+
+.contact h3 {
+    color: black;
+}
+
+.contact h1{
+    color: aliceblue;
+}
+
+.col1, .col3{
+    background-color: rgba(1, 50, 74, 1) ;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.col2{
+    background-color: rgba(105, 33, 0, 1);
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+/* --------- Description ------- */
+
+.description {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+}
+
+.description img {
+    height: 300px;
+    width: 300px;
+    vertical-align: middle;
+}
+
+.left {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.left h1 {
+    font-size: 15px;
+    color: rgba(13, 87, 17, 1);
+}
+
+.left h3 {
+    font-size: 25px;
+    color:rgba(13, 87, 17, 1);
+    font-weight: bolder;
+    margin-right: 100px;
+    margin-top: 15px;
+}
+
+.left h2 {
+    font-size: 30px;
+}
+
+.left p {
+    text-align: left
+}
+
+.stat {
+    display: flex;
+    flex-direction: row;
+}
+
+.one, .two, .three {
+    margin-right: 50px;
+}
+
+.stat h1 {
+    color:rgba(13, 87, 17, 1) ;
+}
+
+.stat h2 {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+
+/* ------ fOOTER --------*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.col1-footer, .col3-footer{
+    background-color: rgba(0, 0, 53, 1) ;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.col2-footer {
+    background-color: rgb(46, 46, 166) ;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+
+.col1-footer .content {
+    margin-left: 100px;
+}
+
+.col2-footer img {
+    height: 30px;
+    width: 30px;
+    margin-top: 25px;
+    margin-right: 15px;
+}
+
+footer .big {
+    font-size: 50px;
+}
+
+footer h3 {
+    color: darkviolet;
+}
+
+footer h1, footer h2 {
+    font-size: 15px;
+    color: aliceblue;
+}
+
+footer li {
+    color: aliceblue;
+    list-style-type: circle;
+    cursor: pointer;
+}
